@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.flex{
+    display: flex;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.margin-auto{
+    max-width: 440px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #0084fd;
+    width: 100vw;
+}
+
+nav{
+    padding: 1rem 0;
+    color: white;
+}
+
+nav ul.responsive-desktop{
+    display: none;
+}
