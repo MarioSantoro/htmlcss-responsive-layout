@@ -83,6 +83,10 @@ ul.responsive-desktop li{
     margin-right: 1.5rem;
 }
 
+section.description{
+    padding: 2rem 0;
+}
+
 .col.big{
     flex-direction: column;
 }
@@ -170,6 +174,10 @@ section.strategic .down{
 
     .col{
         width: calc(100% / 3 - .88rem);
+    }
+
+    section.strategic .col{
+        width: 100%;
     }
 
     .down{
