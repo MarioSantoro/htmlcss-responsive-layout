@@ -39,6 +39,10 @@
     color: #0084fd;
 }
 
+.txt-black{
+    color: #38434d;
+}
+
 .txt-center{
     text-align: center;
 }
@@ -68,8 +72,16 @@ nav{
 
 nav ul.responsive-desktop{
     display: none;
+    list-style-type: none;
 }
 
+ul.responsive-desktop li{
+    margin-right: 1.5rem;
+}
+
+.col.big{
+    flex-direction: column;
+}
 
 .col{
     margin-top: 1rem;
@@ -85,6 +97,10 @@ nav ul.responsive-desktop{
     margin: 1rem 0;
 }
 
+.down{
+    justify-content: center;
+}
+
 .down img{
     width: 250px;
     height: 250px;
@@ -93,4 +109,66 @@ nav ul.responsive-desktop{
 
 i.txt-lightblue{
     font-size: 100px;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width:480px){
+    .container{
+        max-width:calc(100% - 80px) ;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .flex-direction{
+        flex-direction: row;
+    }
+
+    .col.big{
+        width: calc((100% / 3 * 2) - 5px);
+    }
+
+    .col{
+        width: calc(100% / 3 - .88rem);
+    }
+
+    .down{
+        justify-content: start;
+    }
+
+    .down img{
+        width: 200px;
+    }
+
+    .btn-blue{
+        padding: .55rem 4rem;
+    }
+}
+
+@media screen and (min-width:770px){
+    .container{
+        max-width:1440px;
+        margin: 0 auto;
+    }
+
+    .col.big{
+        flex-direction: row;
+    }
+
+    .upper.big,
+    .down.big
+    {
+        width:50% ;
+    }
+
+    .down.big img{
+        width: 100%;
+    }
+
+    nav ul.responsive-desktop{
+        display: flex;
+    }
+
+    nav i.fa-solid.fa-bars{
+        display: none;
+    }
 }
