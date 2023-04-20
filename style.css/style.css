@@ -51,6 +51,10 @@
     color: #0084fd;
 }
 
+.txt-violet{
+    color: #968ae0;
+}
+
 .txt-black{
     color: #38434d;
 }
@@ -185,6 +189,18 @@ section.testimonial .image-radius{
     margin-bottom: 1.5rem;
 }
 
+section.testimonial p.txt-uppercase{
+    margin-top: 1rem;
+}
+
+section.testimonial i{
+    font-size: 1.5rem;
+}
+
+section.testimonial h2{
+    margin: 2rem 0;
+}
+
 #testimonial1{
     background-image: url(../img/testimonial1.jpg);
     background-size: cover;
@@ -239,8 +255,22 @@ section.testimonial .image-radius{
     .btn-blue{
         padding: .55rem 4rem;
     }
-}
 
+    section.testimonial .col{
+        width: 100%;
+    }
+
+    section.testimonial .image-radius{
+        width: 190px;
+        height: 190px;
+    }
+
+    section.testimonial .text{
+        width: 70%;
+        text-align: left;
+        padding-left: 1rem;
+    }
+}
 
 /* Desktop RESPONSIV */
 @media screen and (min-width:770px){
