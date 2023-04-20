@@ -51,6 +51,10 @@
     font-size: 2rem;
 }
 
+.txt-small{
+    font-size: .88rem;
+}
+
 .align-center{
     align-items: center;
 }
@@ -213,6 +217,31 @@ section.strategic .down{
 
     .down.big img{
         width: 100%;
+    }
+
+    section.strategic .col{
+        display: flex;
+        max-width: 800px;
+        margin: 0 auto;
+        align-items:end;
+    }
+
+    section.strategic .upper img{
+        width: 336px;
+        margin-bottom: 6rem;
+    }
+
+    section.strategic .upper{
+        width: 60%;
+    }
+
+    section.strategic .down{
+        width: 40%;
+    }
+
+    section.strategic .container{
+        max-width: 1000px;
+        margin: 0 auto;
     }
 
     nav ul.responsive-desktop{
