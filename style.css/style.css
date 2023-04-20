@@ -203,7 +203,7 @@ section.strategic .down{
     font-size: 1rem;
 }
 
-section.testimonial .image-radius{
+.image-radius{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -230,6 +230,16 @@ section.benefits .btn{
     width: 40%;
 }
 
+section.about .image-radius{
+    position: relative;
+}
+
+section.about .image-radius span{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 #testimonial1{
     background-image: url(../img/testimonial1.jpg);
     background-size: cover;
@@ -244,6 +254,12 @@ section.benefits .btn{
 
 #testimonial3{
     background-image: url(../img/testimonial3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#About{
+    background-image: url(../img/about.jpg);
     background-size: cover;
     background-position: center;
 }
