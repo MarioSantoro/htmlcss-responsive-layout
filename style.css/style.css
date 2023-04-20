@@ -193,7 +193,7 @@ section.strategic .down{
     margin:2rem 0;
 }
 
-.down .btn{
+section.strategic .down .btn{
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -238,6 +238,10 @@ section.about .image-radius span{
     position: absolute;
     top: 0;
     right: 0;
+}
+
+section.about .btn{
+    margin-top: 2rem;
 }
 
 #testimonial1{
@@ -319,6 +323,14 @@ section.about .image-radius span{
     section.benefits .col{
         width: calc(100% / 2 - 1rem);
         flex-direction: column;
+    }
+
+    section.about .container{
+        flex-wrap: nowrap;
+    }
+
+    section.about .upper{
+        padding-right: 2rem;
     }
 }
 
