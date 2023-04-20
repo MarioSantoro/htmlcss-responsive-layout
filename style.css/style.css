@@ -253,9 +253,9 @@ section.about .btn{
 }
 
 section.free p ,
-button ,
-h1 ,
-h3
+section.free button ,
+section.free h1 ,
+section.free h3
 {
     margin-top: 2rem;
 }
