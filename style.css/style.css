@@ -51,8 +51,16 @@
     color: white;
 }
 
+.txt-orange{
+    color: #fdc15f;
+}
+
 .txt-bold{
     font-weight: bold;
+}
+
+.txt-light{
+    font-weight: 100;
 }
 
 .txt-uppercase{
@@ -117,6 +125,10 @@
 header{
     background-color: #0084fd;
     width: 100vw;
+}
+
+a{
+    color: white;
 }
 
 nav{
@@ -242,6 +254,18 @@ section.about .image-radius span{
 
 section.about .btn{
     margin-top: 2rem;
+}
+
+section.free p ,
+button ,
+h1 ,
+h3
+{
+    margin-top: 2rem;
+}
+
+section.free .btn{
+    padding: 1rem 4rem;
 }
 
 #testimonial1{
