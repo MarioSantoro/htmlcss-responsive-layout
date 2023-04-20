@@ -299,6 +299,11 @@ section.benefits .btn{
         text-align: left;
         padding-left: 1rem;
     }
+
+    section.benefits .col{
+        width: calc(100% / 2 - 1rem);
+        flex-direction: column;
+    }
 }
 
 /* Desktop RESPONSIV */
