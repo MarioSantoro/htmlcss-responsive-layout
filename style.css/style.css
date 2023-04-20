@@ -352,6 +352,10 @@ section.benefits .btn{
         margin: 0 auto;
     }
 
+    section.benefits .col{
+        width: calc(100% / 3 - 1rem);
+    }
+
     nav ul.responsive-desktop{
         display: flex;
     }
