@@ -127,10 +127,6 @@ header{
     width: 100vw;
 }
 
-a{
-    color: white;
-}
-
 nav{
     padding: 1rem 0;
     color: white;
@@ -266,6 +262,15 @@ h3
 
 section.free .btn{
     padding: 1rem 4rem;
+}
+
+footer{
+    background-color: #333333;
+    padding: 2rem 0;
+}
+
+footer p{
+    margin: 2rem 0;
 }
 
 #testimonial1{
