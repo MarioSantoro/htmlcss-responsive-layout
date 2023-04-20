@@ -301,7 +301,7 @@ footer p{
 
 /* TABLET RESPONSIV */
 
-@media screen and (min-width:480px){
+@media screen and (min-width:576px){
     .container{
         max-width:calc(100% - 80px) ;
         flex-wrap: wrap;
@@ -367,7 +367,7 @@ footer p{
 }
 
 /* Desktop RESPONSIV */
-@media screen and (min-width:770px){
+@media screen and (min-width:1200px){
     .container{
         max-width:1240px;
         margin: 0 auto;
