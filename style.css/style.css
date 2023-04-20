@@ -47,6 +47,10 @@
     text-align: center;
 }
 
+.txt-large{
+    font-size: 2rem;
+}
+
 .align-center{
     align-items: center;
 }
@@ -94,7 +98,7 @@ ul.responsive-desktop li{
 }
 
 .upper p{
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 
 .down{
@@ -111,6 +115,43 @@ i.txt-lightblue{
     font-size: 100px;
     margin-bottom: 1rem;
 }
+
+section.strategic{
+    background-color: #968ae0;
+}
+
+section.strategic .upper{
+    margin-top: 3rem;
+}
+
+section.strategic .upper img{
+    width: 100%;
+    height: 92%;
+    object-fit: contain;
+}
+
+section.strategic .down{
+    background-color: white;
+    border-radius: 3rem;
+    padding: 1rem;
+}
+
+.down p{
+    margin:2rem 0;
+}
+
+.down .btn-violet{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #968ae0;
+}
+
+.btn-violet i{
+    font-size: 1rem;
+}
+
+/* TABLET RESPONSIV */
 
 @media screen and (min-width:480px){
     .container{
@@ -144,9 +185,11 @@ i.txt-lightblue{
     }
 }
 
+
+/* Desktop RESPONSIV */
 @media screen and (min-width:770px){
     .container{
-        max-width:1440px;
+        max-width:1240px;
         margin: 0 auto;
     }
 
