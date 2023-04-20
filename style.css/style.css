@@ -8,15 +8,35 @@
     display: flex;
 }
 
+.flex-direction{
+    flex-direction:column;
+}
+
 .between{
     justify-content: space-between;
+}
+
+.bg-color-lightblue{
+    background-color: #b5ddff;
+}
+
+.txt-white{
+    color: white;
+}
+
+.txt-lightblue{
+    color: #0084fd;
 }
 
 .align-center{
     align-items: center;
 }
 
-.margin-auto{
+.justify-center{
+    justify-content: center;
+}
+
+.container{
     max-width: 440px;
     margin: 0 auto;
 }
@@ -33,4 +53,25 @@ nav{
 
 nav ul.responsive-desktop{
     display: none;
+}
+
+
+.col{
+    margin-top: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.upper{
+    margin-bottom: 1rem;
+}
+
+.upper p{
+    margin: 1rem 0;
+}
+
+.down img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
