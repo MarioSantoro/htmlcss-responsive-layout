@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .flex{
@@ -10,6 +11,16 @@
 
 .flex-direction{
     flex-direction:column;
+}
+
+.btn{
+    border-radius: 20px;
+    border: none;
+    padding: .55rem;
+}
+
+.btn-blue{
+    background-color: #0084fd;
 }
 
 .between{
@@ -28,6 +39,10 @@
     color: #0084fd;
 }
 
+.txt-center{
+    text-align: center;
+}
+
 .align-center{
     align-items: center;
 }
@@ -37,7 +52,7 @@
 }
 
 .container{
-    max-width: 440px;
+    max-width: calc(100% - 80px);
     margin: 0 auto;
 }
 
@@ -59,7 +74,7 @@ nav ul.responsive-desktop{
 .col{
     margin-top: 1rem;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .upper{
@@ -73,5 +88,9 @@ nav ul.responsive-desktop{
 .down img{
     width: 250px;
     height: 250px;
-    object-fit: cover;
+    object-fit: contain;
+}
+
+i.txt-lightblue{
+    font-size: 100px;
 }
