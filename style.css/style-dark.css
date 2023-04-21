@@ -142,7 +142,7 @@ nav ul.menu-hover{
     background-color: #333333;
 }
 
-nav i.fa-solid.fa-bars:hover ul.menu-hover{
+nav div.menu:hover ul.menu-hover{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,7 +156,7 @@ ul.menu-hover li{
 }
 
 ul.responsive-desktop li{
-    margin-right: 1.5rem;
+    margin-left: 1.5rem;
     cursor: pointer;
     transition: .5s;
 }
@@ -270,6 +270,7 @@ section.testimonial h2{
 
 section.benefits p{
     margin: 1rem 0;
+    color: lightgray;
 }
 
 section.benefits .col{
@@ -471,7 +472,7 @@ footer p{
         display: flex;
     }
 
-    nav i.fa-solid.fa-bars{
+    nav div.menu{
         display: none;
     }
 }

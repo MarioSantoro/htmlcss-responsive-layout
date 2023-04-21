@@ -150,7 +150,7 @@ nav ul.menu-hover{
     background-color: #0084fd;
 }
 
-nav i.fa-solid.fa-bars:hover ul.menu-hover{
+nav div.menu:hover ul.menu-hover{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -470,7 +470,7 @@ footer p{
         display: flex;
     }
 
-    nav i.fa-solid.fa-bars{
+    nav div.menu{
         display: none;
     }
 }
