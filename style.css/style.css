@@ -132,13 +132,57 @@ nav{
     color: white;
 }
 
-nav ul.responsive-desktop{
+nav ul.responsive-desktop , nav ul.menu-hover{
     display: none;
     list-style-type: none;
 }
 
+nav i{
+    padding: 2rem 1.2rem;
+}
+
+nav ul.menu-hover{
+    position: absolute;
+    top: 96px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0084fd;
+}
+
+nav i:hover ul.menu-hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+ul.menu-hover li{
+    transition: all .5s;
+    cursor: pointer;
+}
+
 ul.responsive-desktop li{
     margin-right: 1.5rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+div.bar{
+    width: 1%;
+    background-color: #0084fd;
+    height: 3px;
+    transition: all 1s;
+}
+
+ul li:hover div.bar{
+    width: 100%;
+    background-color: white;
+}
+
+ul.responsive-desktop li:hover , ul.menu-hover li:hover{
+    color: aqua;
 }
 
 section{
@@ -274,6 +318,7 @@ footer{
 footer p{
     margin: 2rem 0;
 }
+
 
 #testimonial1{
     background-image: url(../img/testimonial1.jpg);
