@@ -5,6 +5,10 @@
     font-family: 'PT Sans', sans-serif;
 }
 
+body{
+    background-color: black;
+}
+
 .flex{
     display: flex;
 }
@@ -17,34 +21,22 @@
     align-items: start;
 }
 
+p{
+    color: white;
+}
+
 .btn{
     border-radius: 20px;
     border: none;
     padding: .55rem;
+    background-color: black;
+    color: white;
 }
 
-.btn-blue{
-    background-color: #0084fd;
-}
 
-.btn-violet{
-    background-color: #968ae0;
-}
 
 .between{
     justify-content: space-between;
-}
-
-.bg-color-lightblue{
-    background-color: #b5ddff;
-}
-
-.bg-color-violet{
-    background-color: #968ae0;
-}
-
-.bg-color-white{
-    background-color: white;
 }
 
 .txt-white{
@@ -123,7 +115,7 @@
 }
 
 header{
-    background-color: #0084fd;
+    background-color: #333333;
     width: 100vw;
 }
 
@@ -147,7 +139,7 @@ nav ul.menu-hover{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #0084fd;
+    background-color: #333333;
 }
 
 nav i.fa-solid.fa-bars:hover ul.menu-hover{
@@ -171,7 +163,7 @@ ul.responsive-desktop li{
 
 div.bar{
     width: 1%;
-    background-color: #0084fd;
+    background-color: #333333;
     height: 3px;
     transition: all 1s;
 }
@@ -182,7 +174,7 @@ ul li:hover div.bar{
 }
 
 ul.responsive-desktop li:hover , ul.menu-hover li:hover{
-    color: aqua;
+    color: black;
 }
 
 section{
@@ -196,7 +188,7 @@ section{
 
 .col{
     margin-top: 1rem;
-   
+    background-color: #333333;
 }
 
 .upper{
@@ -225,7 +217,7 @@ i.txt-lightblue{
 section.strategic ,
 section.benefits
 {
-    background-color: #968ae0;
+    background-color: #333333;
 }
 
 section.strategic .upper{
@@ -239,7 +231,7 @@ section.strategic .upper img{
 }
 
 section.strategic .down{
-    background-color: white;
+    background-color: #535151;
 }
 
 .down p{
@@ -280,6 +272,10 @@ section.benefits p{
     margin: 1rem 0;
 }
 
+section.benefits .col{
+    background-color: #535151;
+}
+
 section.benefits .btn{
     width: 40%;
 }
@@ -296,6 +292,7 @@ section.about .image-radius span{
 
 section.about .btn{
     margin-top: 2rem;
+    background-color: #333333;
 }
 
 section.free p ,
@@ -306,12 +303,16 @@ section.free h3
     margin-top: 2rem;
 }
 
+section.free{
+    background-color: #333333;
+}
+
 section.free .btn{
     padding: 1rem 4rem;
 }
 
 footer{
-    background-color: #333333;
+    background-color: black;
     padding: 2rem 0;
 }
 
